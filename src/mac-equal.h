@@ -1,0 +1,5 @@
+#define MAC_EQUAL(a, b) MAC_CONCAT(MAC_EQUAL, MAC_CONCAT(MAC_BOOL(MAC_SUB(a, b)), MAC_BOOL(MAC_SUB(b, a))))
+#define MAC_EQUAL00 1
+#define MAC_EQUAL10 0
+#define MAC_EQUAL01 0
+#define MAC_EQUAL11 0

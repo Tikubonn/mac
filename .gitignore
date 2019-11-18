@@ -1,0 +1,7 @@
+dist/mac.h
+test/*.o
+test/*.exe
+test/mac.h
+*.o
+*.exe
+
